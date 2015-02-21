@@ -16,9 +16,9 @@ The library expose two functions:
 
 Creating a sample matrix:
 
-<!-- -->
-
+<!-- 
   m <- matrix(c(0, 2, 1, 0), nrow = 2, ncol = 2, byrow = TRUE)
+-->
   
   
 Wraps the matrix inside the structure:
