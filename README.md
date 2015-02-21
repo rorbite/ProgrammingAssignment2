@@ -19,19 +19,31 @@ Creating a sample matrix:
 `
   m <- matrix(c(0, 2, 1, 0), nrow = 2, ncol = 2, byrow = TRUE)
 ` 
-  
+ 
 Wraps the matrix inside the structure:
 
+`
   cm <- makeCacheMatrix(m)
-
+`
 
 Calculates the inverse the first time:
 
+`
   cacheSolve(cm)
-
+`
 
 Calculates the inverse the second time:
 
+'
   cacheSolve(cm)
+`
 
+The results of the second call is:
+
+`
+getting the cached inverse matrix
+     [,1] [,2]
+[1,]  0.0    1
+[2,]  0.5    0
+`
 
