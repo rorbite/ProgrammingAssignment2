@@ -34,16 +34,16 @@ Calculates the inverse the first time:
 
 Calculates the inverse the second time:
 
-'
+`
   cacheSolve(cm)
 `
 
 The results of the second call is:
 
-`
+```
 getting the cached inverse matrix
      [,1] [,2]
 [1,]  0.0    1
 [2,]  0.5    0
-`
+```
 
